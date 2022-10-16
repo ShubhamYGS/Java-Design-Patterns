@@ -17,12 +17,12 @@ public class ReflectionProblem {
     STLazyInstantiation st2 = null;
 
     Constructor[] constructors = STLazyInstantiation.class.getDeclaredConstructors();
-    for(Constructor constructor : constructors) {
-        constructor.setAccessible(true);
-        try {
-            st2 = (STLazyInstantiation) constructor.newInstance();
-        } catch (InstantiationException | IllegalAccessException | RuntimeException | InvocationTargetException e) {
-            e.printStackTrace();
-        }
-    }
+//    for(Constructor constructor : constructors) {
+//        constructor.setAccessible(true);
+//        try {
+//            st2 = (STLazyInstantiation) constructor.newInstance();
+//        } catch (InstantiationException | IllegalAccessException | RuntimeException | InvocationTargetException e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
