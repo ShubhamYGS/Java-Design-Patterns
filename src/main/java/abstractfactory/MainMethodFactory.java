@@ -1,6 +1,6 @@
 package abstractfactory;
 
-/*AbstractFactory: Factory of factories.
+/*AbstractFactory: Factory of factories. this is one level higher than Factory Pattern. it is also known as kit.
 * 1. Create Dao Interface
 * 2. Create four classes which implements Dao Interface (CloudDeptDao, CloudEmployeeDao, DBDeptDao, DBEmployeeDao)
 * 3. Create DaoAbstractFactory abstract class. Which has createDao abstract method which returns Dao.
