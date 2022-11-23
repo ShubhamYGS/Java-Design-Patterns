@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class STSerializable implements Serializable, Cloneable {
 
     private static final long serialVersionUID = 1l;
-    public static STSerializable instance;
+    private static STSerializable instance;
 
     private STSerializable() {
 

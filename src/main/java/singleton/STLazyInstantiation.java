@@ -9,7 +9,7 @@ someone triggers it. It gives the already generated object.)
 * */
 public class STLazyInstantiation {
 
-    public static STLazyInstantiation instance;
+    private static STLazyInstantiation instance;
     private STLazyInstantiation() {
     }
     public static STLazyInstantiation getInstance() {

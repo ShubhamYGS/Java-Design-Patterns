@@ -5,7 +5,7 @@ package singleton;
 * then only create the instance. Volatile keyword to make it thread-safe.*/
 
 public class STThreadSafe {
-    public static volatile STThreadSafe instance;
+    private static volatile STThreadSafe instance;
     private STThreadSafe() {
     }
     public static STThreadSafe getInstance() {
