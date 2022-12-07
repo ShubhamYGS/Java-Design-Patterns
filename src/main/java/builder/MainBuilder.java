@@ -10,7 +10,7 @@ package builder;
 * 2. Insider class create a static class with HttpClientBuilder name. This class contains all the private variable along with all the methods who initialize those variable with return type same as class.
 * 3. Inside static class create one more method build() which return the parent class object which initializes inner static builder class.
 * 4. Create a constructor outside which initializes inner static HttpClientBuilder class.
-* 5. Write all the getter which gives access to get any set paramter.
+* 5. Write all the getter which gives access to get any set parameter.
 * 6. Create a toString() method which can print all the variables.
 * 7. In main class call static HttpClientBuilder with GoodHttpClient class. new GoodHttpClient.httpClientBuilder().build();
  */
